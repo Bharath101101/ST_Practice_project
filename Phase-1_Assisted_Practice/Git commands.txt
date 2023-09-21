@@ -1,0 +1,89 @@
+1)we begin by becoming a root user:
+
+# sudo su -
+
+2)then Create a working directory[folder]
+
+# mkdir ST_Practice
+
+3)Go inside the directory
+
+# cd ST_Practice
+
+4)create empty files
+
+# touch file1.java file2.java
+
+5)Create a local repo
+
+# git init
+
+6)Configuring git
+
+#git config --global user.name "Username"
+
+
+#git config --global user.email "User@email"
+
+7)tracking files or adding files to stagin area
+
+# git status
+
+# git add .
+
+8)Committing the files which are staged
+
+#git commit -m "Done First Commit" 
+
+9)To check the commit history on a git repository
+
+# git log
+
+# git log --oneline
+
+10)Deleting a file from Local repo
+
+# git ls-files
+# git rm File1.java
+# git commit -m "deletion of file"
+# git log --oneline
+
+11)Revert command
+
+#git revert commitid
+#nano editor will open
+#insert some message
+#press ctrl +x==>y==>press enter
+
+12)Ignoring files in git
+
+#nano .gitignore
+#insert files
+	*.txt
+	*.log
+	*.xml
+	*.class
+#ctrl +x ==>y==> press enter
+#git status
+#git add .
+#git commit -m "done .gitignore"
+
+12)connecting to remote repository
+step 1:
+#ssh-keygen
+# cat /root/.ssh/id_rsa.pub
+
+Step 2:
+
+Copy the key carefully
+
+Step 3: paste it on git hub
+
+Step 4: Create a remote repository
+
+13)Pushing to remote repository
+git remote add origin <Added the SSH of the particular repo >
+#git push origin master
+
+14)pulling the files from remote repo
+#git pull origin master
