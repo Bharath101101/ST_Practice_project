@@ -1,6 +1,13 @@
 package InheritanceDemo;
 
 public class Base {
+	//Public AccessModifier
+		int hours=10;
+		int min=20;
+		//Private AccessModifier
+		private int a=20;
+		private int b=40;
+		
 	public void  openBrowser(String browser) {
 		System.out.println("open the browser"+browser);
 	}
