@@ -1,0 +1,12 @@
+  <suite name="13OCt test" verbose="1">
+ <test name="MailBoxTest">
+  <classes>
+  <class name="Testenkins.Seleniumtest1">
+  </class>
+  </classes>
+
+ </test>
+
+
+
+</suite>
