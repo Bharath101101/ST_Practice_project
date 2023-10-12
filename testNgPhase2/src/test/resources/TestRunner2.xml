@@ -1,0 +1,26 @@
+<suite name="TestNG Testing" verbose='1' parallel="methods" thread-count="2">
+<test name="TestCycle1">
+<classes>
+
+<class name="com.app.TestNGScripts.testNg1">
+<methods>
+<include name="gettitle"></include>
+</methods>
+</class>
+
+<class name="com.app.TestNGScripts.PrePostCondtions">
+<methods>
+<include name="Login"></include>
+</methods>
+</class>
+<class name="com.app.TestNGScripts.BeforeAfterClass">
+<methods>
+<exclude name="login"></exclude>
+<exclude name="logout"></exclude>
+
+</methods>
+</class>
+
+</classes>
+</test>
+</suite>

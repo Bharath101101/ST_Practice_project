@@ -1,0 +1,9 @@
+<suite name="TestNG Testing" verbose='1'>
+<test name="TestCycle1">
+<classes>
+<class name="com.app.TestNGScripts.testNg1"></class>
+<class name="com.app.TestNGScripts.PrePostCondtions"></class>
+<class name="com.app.TestNGScripts.BeforeAfterClass"></class>
+</classes>
+</test>
+</suite>
