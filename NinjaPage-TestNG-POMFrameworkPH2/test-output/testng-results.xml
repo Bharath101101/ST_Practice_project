@@ -2,31 +2,31 @@
 <testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-12T13:43:48 IST" name="test1" finished-at="2023-10-12T13:44:10 IST" duration-ms="22170">
+  <suite started-at="2023-10-12T15:41:42 IST" name="test1" finished-at="2023-10-12T15:42:21 IST" duration-ms="39559">
     <groups>
     </groups>
-    <test started-at="2023-10-12T13:43:48 IST" name="POMframework" finished-at="2023-10-12T13:44:10 IST" duration-ms="22170">
+    <test started-at="2023-10-12T15:41:42 IST" name="POMframework" finished-at="2023-10-12T15:42:21 IST" duration-ms="39559">
       <class name="com.ninja.qa.TestPages.TestRegisterPage">
-        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:47 IST" name="InitalizeExtentReport" finished-at="2023-10-12T13:43:48 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:41:42 IST" name="InitalizeExtentReport" finished-at="2023-10-12T15:41:42 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitalizeExtentReport -->
-        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:48 IST" name="getnameMethod" finished-at="2023-10-12T13:43:48 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:41:42 IST" name="getnameMethod" finished-at="2023-10-12T15:41:42 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@e162a35]]>
+                <![CDATA[org.testng.TestRunner@2c16677c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getnameMethod -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:48 IST" name="OpenApp" finished-at="2023-10-12T13:43:51 IST" duration-ms="2874" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:41:42 IST" name="OpenApp" finished-at="2023-10-12T15:41:46 IST" duration-ms="3305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:51 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T13:43:53 IST" duration-ms="2387" status="PASS">
+        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:41:46 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T15:42:04 IST" duration-ms="18889" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testregisterUser -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:53 IST" name="CloseApp" finished-at="2023-10-12T13:43:53 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:04 IST" name="CloseApp" finished-at="2023-10-12T15:42:05 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:53 IST" name="generateTestStatus" finished-at="2023-10-12T13:43:53 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:05 IST" name="generateTestStatus" finished-at="2023-10-12T15:42:05 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestStatus -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:53 IST" name="OpenApp" finished-at="2023-10-12T13:43:55 IST" duration-ms="1597" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:05 IST" name="OpenApp" finished-at="2023-10-12T15:42:06 IST" duration-ms="1582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:55 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T13:43:57 IST" duration-ms="2396" status="PASS">
+        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:06 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T15:42:09 IST" duration-ms="2464" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,11 +122,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testregisterUser -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:57 IST" name="CloseApp" finished-at="2023-10-12T13:43:57 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:09 IST" name="CloseApp" finished-at="2023-10-12T15:42:09 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:57 IST" name="generateTestStatus" finished-at="2023-10-12T13:43:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:09 IST" name="generateTestStatus" finished-at="2023-10-12T15:42:09 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,11 +142,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestStatus -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:57 IST" name="OpenApp" finished-at="2023-10-12T13:43:59 IST" duration-ms="1573" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:09 IST" name="OpenApp" finished-at="2023-10-12T15:42:11 IST" duration-ms="1661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:43:59 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T13:44:01 IST" duration-ms="2392" status="PASS">
+        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:11 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T15:42:13 IST" duration-ms="2468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,11 +182,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testregisterUser -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:01 IST" name="CloseApp" finished-at="2023-10-12T13:44:01 IST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:13 IST" name="CloseApp" finished-at="2023-10-12T15:42:13 IST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:01 IST" name="generateTestStatus" finished-at="2023-10-12T13:44:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:13 IST" name="generateTestStatus" finished-at="2023-10-12T15:42:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,11 +202,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestStatus -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:01 IST" name="OpenApp" finished-at="2023-10-12T13:44:03 IST" duration-ms="1626" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:13 IST" name="OpenApp" finished-at="2023-10-12T15:42:15 IST" duration-ms="1541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:03 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T13:44:06 IST" duration-ms="2378" status="PASS">
+        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:15 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T15:42:17 IST" duration-ms="2426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,11 +242,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testregisterUser -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:06 IST" name="CloseApp" finished-at="2023-10-12T13:44:06 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:17 IST" name="CloseApp" finished-at="2023-10-12T15:42:17 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:06 IST" name="generateTestStatus" finished-at="2023-10-12T13:44:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:17 IST" name="generateTestStatus" finished-at="2023-10-12T15:42:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,11 +262,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestStatus -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:06 IST" name="OpenApp" finished-at="2023-10-12T13:44:07 IST" duration-ms="1551" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:17 IST" name="OpenApp" finished-at="2023-10-12T15:42:19 IST" duration-ms="1534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:07 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T13:44:10 IST" duration-ms="2378" status="PASS">
+        <test-method signature="testregisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:19 IST" name="testregisterUser" data-provider="Testdata1" finished-at="2023-10-12T15:42:21 IST" duration-ms="2447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,11 +302,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testregisterUser -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:10 IST" name="CloseApp" finished-at="2023-10-12T13:44:10 IST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:21 IST" name="CloseApp" finished-at="2023-10-12T15:42:21 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:10 IST" name="generateTestStatus" finished-at="2023-10-12T13:44:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:21 IST" name="generateTestStatus" finished-at="2023-10-12T15:42:21 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,7 +322,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestStatus -->
-        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T13:44:10 IST" name="generateReports" finished-at="2023-10-12T13:44:10 IST" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.ninja.qa.TestPages.TestRegisterPage@712625fd]" started-at="2023-10-12T15:42:21 IST" name="generateReports" finished-at="2023-10-12T15:42:22 IST" duration-ms="532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReports -->
