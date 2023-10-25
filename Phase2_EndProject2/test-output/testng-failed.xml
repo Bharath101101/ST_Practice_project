@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [StarHealthSuite]">
+  <test thread-count="5" name="starhealth001(failed)">
+    <parameter name="pincode" value="111111"/>
+    <parameter name="name" value="JohnDoe"/>
+    <parameter name="mobile" value="9848223310"/>
+    <classes>
+      <class name="StarHealthHomePage.StarHealth001">
+        <methods>
+          <include name="fillingForm" invocation-numbers="0"/>
+          <include name="startbrowser"/>
+          <include name="close_all_the_browsers"/>
+        </methods>
+      </class> <!-- StarHealthHomePage.StarHealth001 -->
+    </classes>
+  </test> <!-- starhealth001(failed) -->
+</suite> <!-- Failed suite [StarHealthSuite] -->

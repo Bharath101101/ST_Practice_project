@@ -1,0 +1,11 @@
+<suite name="StarHealthSuite" verbose="1">
+    <test name="starhealth001">
+        <parameter name="name" value="JohnDoe"/>
+        <parameter name="mobile" value="9848223310"/>
+        <parameter name="pincode" value="111111"/>
+        <classes>
+            <class name="StarHealthHomePage.StarHealth001"/>
+        </classes>
+    </test>
+</suite>
+
