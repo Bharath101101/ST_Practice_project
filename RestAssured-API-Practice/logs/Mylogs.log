@@ -1,0 +1,13 @@
+[INFO ] 2023-11-10 10:56:32.992 [main] Log4jPractice -  this is information message
+[ERROR] 2023-11-10 10:56:32.995 [main] Log4jPractice -  this is an error message
+[FATAL] 2023-11-10 10:56:32.995 [main] Log4jPractice -  this is a fatal messgae
+[WARN ] 2023-11-10 10:56:32.995 [main] Log4jPractice -  this is a warning message
+[INFO ] 2023-11-10 12:15:33.868 [main] RestAssured001 - Course End project - Assignment001 - POST request
+[INFO ] 2023-11-10 12:15:36.415 [main] RestAssured001 - Course End project - Assignment001 - GET request
+[INFO ] 2023-11-10 12:15:37.617 [main] RestAssured001 - Course End project - Assignment001 - Delete request
+[INFO ] 2023-11-10 16:29:47.073 [main] RestAssured001 - Course End project - Assignment001 - POST request
+[INFO ] 2023-11-10 16:29:49.647 [main] RestAssured001 - Course End project - Assignment001 - GET request
+[INFO ] 2023-11-10 16:29:50.828 [main] RestAssured001 - Course End project - Assignment001 - Delete request
+[INFO ] 2023-11-10 16:31:06.126 [main] RestAssured001 - Course End project - Assignment001 - POST request
+[INFO ] 2023-11-10 16:31:08.626 [main] RestAssured001 - Course End project - Assignment001 - GET request
+[INFO ] 2023-11-10 16:31:09.767 [main] RestAssured001 - Course End project - Assignment001 - Delete request
